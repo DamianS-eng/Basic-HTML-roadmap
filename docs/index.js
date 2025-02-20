@@ -10,7 +10,7 @@ if (menuEle) {
 	navList.forEach((i) => {
 		const linkEle = document.createElement("a");
 		linkEle.href = "./" + i + ".html";
-		if(i === "Homepage") { linkEle.href = "/";}
+		if(i === "Homepage") { linkEle.href = "./index.html";}
 		const listEle = document.createElement("li");
 		listEle.innerHTML = i;
 		linkEle.appendChild(listEle);
