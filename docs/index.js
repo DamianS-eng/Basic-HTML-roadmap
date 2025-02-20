@@ -1,13 +1,12 @@
-if (typeof listOfLinks === 'undefined') {
-const listOfLinks = [
+listOfLinks = [
 	"Homepage",
 	"Projects",
 	"Articles",
 	"Contact"
-];};
+];
 
 const menuEle = document.querySelector("menu");
-if (menuEle && typeof listOfLinks !== 'undefined') {
+if (menuEle) {
 	listOfLinks.forEach((i) => {
 		const linkEle = document.createElement("a");
 		linkEle.href = "./" + i + ".html";
