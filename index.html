@@ -1,24 +1,40 @@
 <!DOCTYPE html>
 <html lang="en-us" prefix="og: ">
-
 <head>
-	<title>Homepage</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="color-scheme" content="light dark" />
-    <meta name="theme-color" media="prefers-color-scheme: light" content="blue" />
-    <meta name="theme-color" media="prefers-color-scheme: dark" content="red" />
-	
-    <link rel="icon" type="image/svg" href="./favico/favicon.svg" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./favico/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./favico/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="./favico/favicon-16x16.png" />
-    <link rel="stylesheet" href="./docs/styles.css" />
-    <script src="./docs/index.js" defer></script>
+  <title>Homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" media="prefers-color-scheme: light" content="blue" />
+  <meta name="theme-color" media="prefers-color-scheme: dark" content="red" />
+  
+  <link rel="icon" type="image/svg" href="./favico/favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./favico/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./favico/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./favico/favicon-16x16.png" />
+  <link rel="stylesheet" href="./docs/styles.css" />
+  
+  <script src="./docs/index.js" defer></script>
 </head>
 <body>
 <nav>
-<menu id="pages">
-</menu>
+<a href="#"><div id="top-logo"><svg alt="logo"> </svg></a>
+<menu id="pages"></menu>
 </nav>
+  <section id="hero"><h1></h1><p role="doc-subtitle"></p></section>
+  <section id="projects><h2>Projects</h2><ul id="project-list"></ul></section>
+  <section id="work-experience">
+    <ul id="work"></ul>
+    <ul id="work-open-source"></ul>
+  </section>
+  <section id="education">
+    <h2>Education</h2>
+    <p class="description></p>
+    <p>Courses I took:</p>
+    <ul id="courses"></ul>
+  </section>
+  <section id="reviews">
+    <ul id="review-list"></ul>
+  </section>
+  <footer>&#169; all rights reserved <span id="year"></span></footer>
 </body>
 </html>
