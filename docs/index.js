@@ -3,7 +3,7 @@ const listOfLinks = [
 	"Projects",
 	"Articles",
 	"Contact"
-]
+];
 
 const menuEle = document.querySelector("menu");
 if (menuEle) {
