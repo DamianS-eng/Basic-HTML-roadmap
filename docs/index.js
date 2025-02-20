@@ -1,4 +1,4 @@
-const navList = [
+const listOfLinks = [
 	"Homepage",
 	"Projects",
 	"Articles",
@@ -7,7 +7,7 @@ const navList = [
 
 const menuEle = document.querySelector("menu");
 if (menuEle) {
-	navList.forEach((i) => {
+	listOfLinks.forEach((i) => {
 		const linkEle = document.createElement("a");
 		linkEle.href = "./" + i + ".html";
 		if(i === "Homepage") { linkEle.href = "/";}
