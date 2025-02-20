@@ -3,9 +3,9 @@ const navList = [
 	"Projects",
 	"Articles",
 	"Contact"
-]
+];
 
-const menuEle = document.querySelector("menu");
+const menuEle = document.querySelector("#pages");
 if (menuEle) {
 	navList.forEach((i) => {
 		const linkEle = document.createElement("a");
@@ -13,6 +13,7 @@ if (menuEle) {
 		if(i === "Homepage") { linkEle.href = "/";}
 		const listEle = document.createElement("li");
 		listEle.innerHTML = i;
+		linkEle.appendChild(listEle);
 		menuEle.appendChild(linkEle);
 	});
-}
+};
